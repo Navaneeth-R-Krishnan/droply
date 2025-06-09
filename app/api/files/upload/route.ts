@@ -88,7 +88,7 @@ export async function POST(request: NextRequest) {
       size: file.size,
       type: file.type,
       fileUrl: uploadResponse.url,
-      thumbnailUrl: uploadResponse.thumbnailUrl || null,
+      thumbnailUrl: uploadResponse.thumbnailUrl || "",
       userId: userId,
       parentId: parentId,
       isFolder: false,

@@ -56,7 +56,7 @@ export async function POST(request: NextRequest) {
       size: 0,
       type: "folder",
       fileUrl: "",
-      thumbnailUrl: null,
+      thumbnailUrl: "",
       userId,
       parentId,
       isFolder: true,
